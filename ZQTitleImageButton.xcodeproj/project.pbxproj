@@ -15,7 +15,7 @@
 		95634177224227890085BC06 /* ZQTitleImageButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 95634175224227890085BC06 /* ZQTitleImageButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9563417A224227890085BC06 /* ZQTitleImageButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95634173224227890085BC06 /* ZQTitleImageButton.framework */; };
 		9563417B224227890085BC06 /* ZQTitleImageButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 95634173224227890085BC06 /* ZQTitleImageButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		9563418122422A5D0085BC06 /* ZQTitleImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563418022422A5D0085BC06 /* ZQTitleImageButton.swift */; };
+		95FB2D9222436D1800B2BF18 /* ZQTitleImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9563418022422A5D0085BC06 /* ZQTitleImageButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -232,7 +232,6 @@
 			files = (
 				9563415F224223520085BC06 /* ZQRootViewController.swift in Sources */,
 				9563415D224223520085BC06 /* ZQAppDelegate.swift in Sources */,
-				9563418122422A5D0085BC06 /* ZQTitleImageButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +239,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95FB2D9222436D1800B2BF18 /* ZQTitleImageButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +392,7 @@
 		9563416C224223530085BC06 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
@@ -412,6 +413,7 @@
 		9563416D224223530085BC06 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = "";
